@@ -51,13 +51,14 @@ section#login > div#formulario {
     
 }
 
-h1 {
-    margin: 10px;
+div#formulario > h1 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-p {
+div#formulario > p {
     margin: 5px;
+    font-size: 1.1em;
 }
 
 input {
