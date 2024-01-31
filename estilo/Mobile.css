@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* <span class="material-symbols-outlined">mail</span> */
+
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
@@ -61,10 +63,70 @@ div#formulario > p {
     font-size: 1.1em;
 }
 
-input {
-    margin: 5px;
-    padding: 10px;
+form > input[type=submit] {
     background-color: #D573A0;
-    color: white;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border: none;
     border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #B44578;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #801144;
+    border: 2px solid #D573A0 ;
+    border-radius: 15px;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.botao:hover {
+    background-color: #5C002A;
+}
+
+form > div.campo {
+    background-color: #801144;
+    display: block;
+    border-radius: 15px;
+    height: 40px;
+    margin-top: 10px;
+    border: 2px solid #801144;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #D573A0;
+    border: none;
+    font-size: 1em;
+    width: calc(80% + 10px);
+    transform: translateY(-13px);
+    height: 100%;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+div.campo > input:focus {
+    background-color: white;
 }

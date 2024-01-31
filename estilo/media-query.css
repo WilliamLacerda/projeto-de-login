@@ -7,19 +7,24 @@
 
     section#login {
         width: 80vw;
+        height: 350px;
     }
 
     section#login > div#imagem {
         float: left;
         width: 30%;
         height: 100%;
-    }
+        background-position-x: center center;
+        }
 
     section#login > div#formulario {
         float: right;
         width: 70%;
         height: 100%;
-        
+    }
+
+    div.campo > input {
+        width: calc(80% + 36px);
     }
 }
 
@@ -30,6 +35,7 @@
 
     section#login {
         width: 950px;
+        height: 450px;
     }
 
     div#formulario > h1 {
@@ -44,6 +50,10 @@
         float: right;
         width: 50%;
         height: 100%;
+    }
+
+    div.campo > input {
+        width: calc(80% + 44px);
     }
     
     section#login div#formulario {

@@ -22,20 +22,20 @@
                 <p>Seja bem-vindo(a) novamente. Faca login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
                 <form action="login.php" method="post" autocomplete="on">
-                    <div>
+                    <div class="campo">
                         <span class="material-symbols-outlined">person</span>
                         <input type="email" name="Email" id="email" required autocomplete="email" placeholder="seu e-mail" maxlength="40">
-                        <label for="email">Login</label>
+                        <label for="email"></label>
                     </div>
 
-                    <div>
+                    <div class="campo">
                         <span class="material-symbols-outlined">vpn_key</span>
                         <input type="password" name="Senha" required autocomplete="current-password" placeholder="sua senha" minlength="8" maxlength="30">
-                        <label for="senha">Senha</label>
+                        <label for="senha"></label>
                     </div>
 
                     <input type="submit" value="Entrar"><br>
-                    <a href="esqueci.html">Esqueci a senha</a><span class="material-symbols-outlined">mail</span>
+                    <a href="esqueci.html" class="botao">Esqueci a senha</a>
 
                 </form>
             </div>
